@@ -83,7 +83,7 @@ footer{
     height:100px;
     width:100%;
     clear: both;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     background: linear-gradient(90deg, rgba(50,17,39,0.9) 0%, rgba(31,29,84,0.9) 100%),
     url(https://images.unsplash.com/photo-1537204319452-fdbd29e2ccc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
@@ -111,10 +111,13 @@ footer{
     .Sushi{
         clear: both;
         width: 92%;
-        margin: 10px;
+        margin: 10px 10px 110px 10px;
     }
 }
 @media (max-width:767px){
+    header{
+        font-size: 0.75em;
+    }
     .Chicken{
         width: 95%;
         margin: 10px;
@@ -126,6 +129,6 @@ footer{
     .Sushi{
         clear: both;
         width: 95%;
-        margin: 10px;
+        margin: 10px 10px 110px 10px;
     }
 }
